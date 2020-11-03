@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            background-color: gray;
+            height: 400px;
+        }
+
+
+
+        .mainItem {
+            height: 25%;
+        }
+
+        .cabecera {
+            background-color: lightcoral;
+        }
+
+        .menu {
+            background-color: lightgreen;
+        }
+
+        .tabla {
+            background-color: lightskyblue;
+
+        }
+
+        .footer {
+            background-color: lightpink;
+        }
+
+        .row {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .col {
+
+            width: 100%;
+        }
+
+        a {
+            height: 100px;
+        }
+
+        /* On screens that are 992px wide or less, go from four columns to two columns */
+        @media screen and (max-width: 992px) {
+            .row {
+                display: flex;
+                flex-flow: column wrap;
+            }
+
+            .col {
+                width: 100%;
+            }
+
+            .mainItem {
+            height: auto;
+        }
+            img{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="cabecera mainItem">
+            <div class="row">
+                <div class="col">
+                    Cabecera
+                </div>
+            </div>
+        </div>
+
+        <div class="menu mainItem">
+            <div class="row">
+                <div class="col">
+                    Menu
+                </div>
+            </div>
+        </div>
+
+        <div class="tabla mainItem">
+            <div class="row">
+                <div class="col foto">
+                    <img src="https://picsum.photos/400/100">
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    buenas tardes
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    foto + buenas tardes
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    buenas tardes
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    foto + buenas tardes
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    buenas tardes
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    buenas tardes
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer mainItem">
+            <div class="row">
+                <div class="col">
+                    Pie de página
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
