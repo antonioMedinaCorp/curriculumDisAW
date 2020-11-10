@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<style>
+  .container{
+    height: 1000px;
+    width: 1080px
+  }
+
+  .negrita{
+    font-weight: bold;
+  }
+
+  .titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .subtitulo{
+    font-size: 20px;
+    font-weight: 500;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container w-100 m-0 ">
+    <div class="row  h-100">
+      <div class="col-3 bg-dark">
+        <div class="nav flex-column nav-pills mt-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#personalInfo" role="tab" aria-controls="v-pills-home" aria-selected="true">Información Personal</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#formacion" role="tab" aria-controls="v-pills-profile" aria-selected="false">Formación</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#experiencia" role="tab" aria-controls="v-pills-messages" aria-selected="false">Experiencia</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#habilidades" role="tab" aria-controls="v-pills-messages" aria-selected="false">Habilidades</a>
+        </div>
+      </div>
+      <div class="col">
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="personalInfo" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <p class="titulo">
+              Información personal:
+            </p>
+            <p class="contenido">
+              <img src="https://picsum.photos/300/200" alt=""><br>
+              <span class="negrita">Nombre:</span> John<br>
+              <span class="negrita">Apellidos:</span> Doe<br>
+              <span class="negrita">Teléfono:</span> 624684531<br>
+              <span class="negrita">Correo electrónico:</span> fakemail@gmail.com<br>
+            </p>
+          </div>
+          <div class="tab-pane fade" id="formacion" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <p class="titulo">
+              Formación:
+            </p>
+            <p>
+              <a href="http://www.iesluiscarrillodesotomayor.org/cms/">GF Sistemas Microinformáticos y Redes</a>
+            </p>
+            <p>
+              <a href="http://www.iesluiscarrillodesotomayor.org/cms/">GF Otra entrada de relleno</a>
+            </p>
+            <p>
+              <a href="http://www.iesluiscarrillodesotomayor.org/cms/">GF Siguiente entrada de relleno</a>
+            </p>
+          </div>
+          <div class="tab-pane fade" id="experiencia" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <p class="titulo">
+              Experiencia:
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="habilidades" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <p class="titulo">
+              Otras habilidades:
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+            <p>
+              <span class="subtitulo">Lorem ipsum dolor sit amet</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur dictum odio ac porta. Aenean ac fringilla quam. In hac habitasse platea dictumst. Aenean velit lacus, tempor sed efficitur nec, varius vel diam. In placerat placerat tellus, in mollis elit aliquam ac.
+            </p>
+
+          </div>
+    
+        </div>
+    
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
